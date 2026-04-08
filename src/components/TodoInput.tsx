@@ -12,7 +12,7 @@ export default function TodoInput({ input, onChange, onAdd }: TodoInputProps) {
         value={input}
         onChange={e => onChange(e.target.value)}
         onKeyDown={e => e.key === 'Enter' && onAdd()}
-        placeholder="Add a new task..."
+        placeholder="Add a new task...."
         className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <button
